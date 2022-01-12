@@ -196,8 +196,8 @@ public class MineSweeper2 {
      * the method check if you press on a mine. if you prees on a mine you lose
      * the game.
      *
-     * @param positionRow -
-     * @param positionColumn -
+     * @param positionRow row position of a square
+     * @param positionColumn  column position of a square
      */
     public void boom(int positionRow, int positionColumn) {
         if (board[positionRow][positionColumn] == 9) {
